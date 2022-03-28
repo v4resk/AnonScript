@@ -4,11 +4,10 @@ Bash script that allow you to redirect all the traffics through Tor network for 
 
 # Features
 
--h, --help      show this help message and exit
--t, --tor       start transparent proxy through tor
--c, --clearnet  reset iptables and return to clearnet navigation
--m, --mac  change mac address on all interfaces
--l, --logs  remove some logs and bash history
+1. Start a transparent proxy through tor
+2. Reset iptables and return to clearnet navigation
+3. Change mac address on all interfaces
+5. Remove some logs and bash history / And change hostname
 
 ## Install
 
@@ -23,4 +22,24 @@ git clone https://github.com/v4resk/AnonScript
 1. Start tor transparent proxy :
 ```
 sudo ./AnonScript.sh --tor
+```
+
+2. Reset iptables and return to clearnet navigation
+```
+sudo ./AnonScript.sh --clearnet
+```
+
+3. Change mac address on all interfaces
+```
+sudo ./AnonScript.sh --mac
+```
+
+4. Remove some logs and bash history + change hostname
+```
+sudo ./AnonScript.sh --logs
+```
+
+5. Do all (--tor --mac --logs)
+```
+sudo ./AnonScript.sh --all
 ```
