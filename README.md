@@ -4,11 +4,11 @@ Bash script that allow you to redirect all the traffics through Tor network for 
 
 # Features
 
--h, --help      show this help message and exit
--t, --tor       start transparent proxy through tor
--c, --clearnet  reset iptables and return to clearnet navigation
--m, --mac  change mac address on all interfaces
--l, --logs  remove some logs and bash history
+1. -h, --help      show this help message and exit
+2. -t, --tor       start transparent proxy through tor
+3. -c, --clearnet  reset iptables and return to clearnet navigation
+4. -m, --mac  change mac address on all interfaces
+5. -l, --logs  remove some logs and bash history
 
 ## Install
 
