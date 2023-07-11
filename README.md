@@ -13,8 +13,8 @@ Bash script that allow you to redirect all the traffics through Tor network for 
 
 As sudo go to /usr/share and clone the git repo:
 ```
-cd /usr/share
 git clone https://github.com/v4resk/AnonScript
+cd AnonScript
 ```
 
 ## Usage

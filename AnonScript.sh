@@ -11,8 +11,8 @@ readonly virtual_address="10.192.0.0/10"
 # LAN destinations that shouldn't be routed through Tor
 readonly non_tor="127.0.0.0/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16"
 
-readonly config_dir="/usr/share/AnonScript/conf"
-readonly backup_dir="/usr/share/AnonScript/backup"
+readonly config_dir="$PWD/conf"
+readonly backup_dir="$PWD/backup"
 
 #CHECK FOR ROOT
 if [[ "${UID}" -ne 0 ]]; then
